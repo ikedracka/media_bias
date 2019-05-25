@@ -1,37 +1,71 @@
-import urllib.parse, json, urllib.request, time
 #-*- coding: utf-8 -*-
+# get all files containing real data
+# parse into pandas DataFrames
+# For each sentence create line in dict: Origin, sentence, dict with number of words of certain emotions
 
-data = dict()
+import urllib.parse, json, urllib.request, time, csv
+import pandas as pd
+import xml.etree.ElementTree as et
+from Functions.RandomStringDigits import randomStringDigits
 
-# out_path= '../wyniki/'
-l='any2txt|wcrft2({"morfeusz2":true})|wsd|sentiment'
-u='IKedracka'
-t="Powiedziała mamie, że ją kocha"
-s=dict(lpmn=l, text=t, user=u)
+# declare titles
+#Dziennik, Fronda
+titles=['Fronda','Gazeta','Interia','NCzas','Newsweek','Onet','Polityka','RMFPolska','RMFSwiat','TVN24','TVPInfo','WP','WPolityce','Wprost']
 
-data['text']=t
-data['lpmn']=l
-data['user']="IKedracka"
-doc=json.dumps(data).encode('utf8')
-
-link="http://ws.clarin-pl.eu/nlprest2/base/startTask/"
-u=urllib.parse.urlparse(link)
-url=u.geturl()
-base='http://ws.clarin-pl.eu/nlprest2/base'
-tid = urllib.request.urlopen(urllib.request.Request(url,data=doc, headers={'Content-Type': 'application/json'})).read().decode('utf8')
-time.sleep(3)
-print(tid)
-resp = urllib.request.urlopen(urllib.request.Request(base + '/getStatus/' + tid)).read()
-data=json.loads(resp)
-results=data['value']
-print(results)
+# declare final dataframe with sentiments
+headlines=pd.DataFrame(columns=['ID','Title','Sentence','Sentiment'])
 
 
-for item in results:
-    content = urllib.request.urlopen(urllib.request.Request(base + '/download' + item['fileID'])).read().decode('utf8')
-    print(item['name'] + " content: " + content)
-    # try:
-    #     with open(out_path + item['name'] + '_filter_fls.ccl', "w") as outfile:
-    #         outfile.write(content)
-    # except OSError as e:
-    #     print(item['name'] + ' - exception error')
+
+def sentimentAnalysis(): #source as path to csv file
+    # initialize dictionary for CLARIN analysis:
+    data = dict()
+    summary=dict()
+    l = 'any2txt|wcrft2({"morfeusz2":true})|wsd|sentiment'
+    u = 'IKedracka'
+
+    #get text to parse:
+    for title in titles:
+        words=list()
+        emotions=dict()
+        path = "C:\\Users\\Ilona\\PycharmProjects\\TestDataGenerator\\DataFull\\" + title + ".txt"
+        source=open(path,"r")
+        words=source.read().split(',')
+        text=' '.join(words)
+        text=text.replace("'","")
+        print(text)
+        data['text']=text
+        data['lpmn']=l
+        data['user']=u
+        doc=json.dumps(data).encode('utf8')
+        link="http://ws.clarin-pl.eu/nlprest2/base/startTask/"
+        u=urllib.parse.urlparse(link)
+        url=u.geturl()
+        base='http://ws.clarin-pl.eu/nlprest2/base'
+        tid = urllib.request.urlopen(urllib.request.Request(url,data=doc, headers={'Content-Type': 'application/json'})).read().decode('utf8')
+        print(tid)
+        time.sleep(20)
+        resp = json.loads(urllib.request.urlopen(urllib.request.Request(base + '/getStatus/' + tid)).read())
+        value=resp['value']
+        print(value)
+
+        for item in value:
+            content = urllib.request.urlopen(urllib.request.Request(base + '/download' + item['fileID'])).read().decode('utf8')
+            # print(content)
+            root=et.fromstring(content)
+            for tok in root.findall('.//tok'):
+                if tok.findtext('prop') is not None and len(tok.findtext('prop')) >1:
+                    # print(tok.findtext('orth'))
+                    # print(tok.findtext('prop'))
+                    sentiment=tok.findtext('prop').split(',')
+                    for emotion in sentiment:
+                        if emotion in emotions:
+                            emotions[emotion]+=1
+                        else:
+                            emotions[emotion]=1
+            summary[title]=emotions
+    return summary
+
+sentiment=sentimentAnalysis()
+with open("C:\\Users\\Ilona\\PycharmProjects\\TestDataGenerator\\resultNaive.json","w") as result:
+    json.dump(sentiment, result, ensure_ascii=False)
