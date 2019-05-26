@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d18717df-d3ac-4ab8-b046-ba00e40c40b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/ProperNames.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataReal/Dziennik.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataReal/Dziennik.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataReal/Fronda.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataReal/Fronda.csv" afterDir="false" />
@@ -34,8 +34,7 @@
       <change beforePath="$PROJECT_DIR$/DataTest/testWP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataTest/testWP.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataTest/testWPolityce.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataTest/testWPolityce.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataTest/testWprost.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataTest/testWprost.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functions/DataLoader.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/DataLoader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functions/Sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/Sentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions/DataWriter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/DataWriter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,27 +44,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functions/DataLoader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataFull/Newsweek.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1269" selection-start-column="1269" selection-end-column="1269" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataFull/Fronda.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,11 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functions/Sentiment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
+            <state relative-caret-position="1139">
               <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-              <folding>
-                <element signature="e#197#244#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -90,17 +65,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resultNaive.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="493">
               <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functions/DataWriter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="185">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Functions/ProperNames.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+              <folding>
+                <element signature="e#197#249#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataReal/Fronda.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="1513">
+              <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataReal/Interia.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="128">
+              <caret line="575" selection-start-line="575" selection-end-line="575" />
             </state>
           </provider>
         </entry>
@@ -111,8 +122,8 @@
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="99" />
+            <state relative-caret-position="159">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -120,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperRMFSwiat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
+            <state relative-caret-position="357">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
@@ -175,6 +186,7 @@
       <find>dir</find>
       <find>\</find>
       <find>prin</find>
+      <find>value</find>
     </findStrings>
     <replaceStrings>
       <replace>bs(page, features=&quot;html.parser&quot;)</replace>
@@ -187,7 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Scrapers/WebScraperNCzas.py" />
         <option value="$PROJECT_DIR$/Scrapers/WebScraperFronda.py" />
         <option value="$PROJECT_DIR$/DataTest/testDziennik.csv" />
         <option value="$PROJECT_DIR$/DataTest/testFronda.csv" />
@@ -203,8 +214,6 @@
         <option value="$PROJECT_DIR$/DataTest/testWP.csv" />
         <option value="$PROJECT_DIR$/DataTest/testWPolityce.csv" />
         <option value="$PROJECT_DIR$/DataTest/testWprost.csv" />
-        <option value="$PROJECT_DIR$/DataReal/Fronda.csv" />
-        <option value="$PROJECT_DIR$/DataReal/Gazeta.csv" />
         <option value="$PROJECT_DIR$/DataReal/Interia.csv" />
         <option value="$PROJECT_DIR$/DataReal/NCzas.csv" />
         <option value="$PROJECT_DIR$/DataReal/Newsweek.csv" />
@@ -223,7 +232,6 @@
         <option value="$PROJECT_DIR$/DataReal/RMFSwiat.csv" />
         <option value="$PROJECT_DIR$/Scrapers/WebScraperRMFSwiat.py" />
         <option value="$PROJECT_DIR$/Scrapers/WebScraperDziennik.py" />
-        <option value="$PROJECT_DIR$/Functions/DataWriter.py" />
         <option value="$PROJECT_DIR$/Scrapers/scraper.py" />
         <option value="$PROJECT_DIR$/Scrapers/scraperxml.py" />
         <option value="$PROJECT_DIR$/Scrapers/scraperjson.py" />
@@ -238,6 +246,10 @@
         <option value="$PROJECT_DIR$/Functions/DataLoader.py" />
         <option value="$PROJECT_DIR$/Functions/Sentiment.py" />
         <option value="$PROJECT_DIR$/resultNaive.json" />
+        <option value="$PROJECT_DIR$/Functions/DataWriter.py" />
+        <option value="$PROJECT_DIR$/DataReal/Fronda.csv" />
+        <option value="$PROJECT_DIR$/DataReal/Gazeta.csv" />
+        <option value="$PROJECT_DIR$/Functions/ProperNames.py" />
       </list>
     </option>
   </component>
@@ -264,6 +276,11 @@
             <path>
               <item name="TestDataGenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestDataGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="DataReal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDataGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDataGenerator" type="462c0819:PsiDirectoryNode" />
               <item name="Functions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,19 +297,20 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Scrapers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Functions" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\RealData" />
+      <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\Scrapers" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\Functions" />
       <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\Scrapers" />
       <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\DataReal" />
       <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\DataTest" />
       <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\RealData" />
-      <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\Scrapers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,7 +325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DataWriter">
+  <component name="RunManager" selected="Python.ProperNames">
     <configuration name="DataLoader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TestDataGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -342,6 +360,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/DataWriter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ProperNames" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TestDataGenerator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/ProperNames.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -392,34 +431,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testNLP2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TestDataGenerator" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/testNLP2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ProperNames" />
         <item itemvalue="Python.DataWriter" />
         <item itemvalue="Python.Sentiment" />
         <item itemvalue="Python.DataLoader" />
         <item itemvalue="Python.slowNLPtest" />
-        <item itemvalue="Python.testNLP2" />
       </list>
     </recent_temporary>
   </component>
@@ -436,22 +454,32 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2470238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5139116" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5139116" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4091653" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4091653" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -467,9 +495,9 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.4091653" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -478,26 +506,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DataTest/testInteria.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataReal/RMFPolska.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataReal/Wprost.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
@@ -618,12 +626,12 @@
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="9010">
           <caret line="530" selection-start-line="530" selection-end-line="530" />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/DataTest/testDziennik.csv">
       <provider editor-type-id="csv-table-editor">
@@ -772,16 +780,6 @@
     <entry file="file://$PROJECT_DIR$/Functions/testNLP.py" />
     <entry file="file://$PROJECT_DIR$/info.json" />
     <entry file="file://$PROJECT_DIR$/Functions/testNLP2.py" />
-    <entry file="file://$PROJECT_DIR$/DataReal/Fronda.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperTVN24.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -812,36 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperWPolityce.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataReal/Gazeta.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperRMFSwiat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataFull/Dziennik.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -851,6 +819,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataFull/Gazeta.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/DataLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataFull/Newsweek.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -866,37 +841,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/DataLoader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Functions/Sentiment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
+        <state relative-caret-position="1139">
           <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-          <folding>
-            <element signature="e#197#244#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resultNaive.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="493">
           <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperWPolityce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataReal/Interia.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="128">
+          <caret line="575" selection-start-line="575" selection-end-line="575" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperRMFSwiat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataReal/Gazeta.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="159">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataReal/Fronda.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions/DataWriter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="185">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/ProperNames.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+          <folding>
+            <element signature="e#197#249#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

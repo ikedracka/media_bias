@@ -46,19 +46,19 @@ def update():
         # If new headlines not in old headlines, append new headlines to the file
         for key, val in newData.items():
             if val not in lastUpdate:
-                newUpdate.append(val.replace(u'\u200b',''))
+                newUpdate.append(val.replace(u'\u200b','').replace(u'\u0219','s'))
         print("Update - " + str(titles[i]))
         print(newUpdate)
         realDataWriter = csv.writer(open(realString, mode="a"))
         timestamp=datetime.datetime.now()
         for line in newUpdate:
-            line=line.replace(u'\u200b','')
+            line=line.replace(u'\u200b','').replace(u'\u0219','s')
             realDataWriter.writerow([titles[i],line,timestamp])
 
         testDataWriter=csv.writer(open(testString, mode="w"))
         testDataWriter.writerow(['Title','Headline','Timestamp'])
         for key, val in newData.items():
-            value=val.replace(u'\u200b','')
+            value=val.replace(u'\u200b','').replace(u'\u0219','s')
             testDataWriter.writerow([titles[i],value,timestamp])
         frun=datetime.datetime.now()
     print("Function runned: ")
