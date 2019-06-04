@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d18717df-d3ac-4ab8-b046-ba00e40c40b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Functions/ProperNames.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/CountItems.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/FullTextDataWriter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/ProperNamesParsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/ProperNamesSentiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/ProperNamesSentimentReader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/SentimentSummaryAnalyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/hyphenAnalyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResultProperNamesSentiment.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapers/WebScraperNCzasWebsites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapers/WebScraperNewsweekWebsites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapers/WebScraperOnetWebsites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapers/WebScraperPolitykaWebsites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrapers/WebScraperWPolityceWebsites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/properNamesCategorized.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/Dziennik.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/Dziennik.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/Fronda.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/Fronda.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/Gazeta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/Gazeta.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/Interia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/Interia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/NCzas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/NCzas.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/Newsweek.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/Newsweek.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/Onet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/Onet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/Polityka.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/Polityka.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/RMFPolska.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/RMFPolska.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/RMFSwiat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/RMFSwiat.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/TVN24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/TVN24.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/TVPInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/TVPInfo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/WP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/WP.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/WPolityce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/WPolityce.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFull/Wprost.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/Wprost.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataReal/Dziennik.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataReal/Dziennik.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataReal/Fronda.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataReal/Fronda.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataReal/Gazeta.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataReal/Gazeta.csv" afterDir="false" />
@@ -35,6 +64,13 @@
       <change beforePath="$PROJECT_DIR$/DataTest/testWPolityce.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataTest/testWPolityce.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataTest/testWprost.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataTest/testWprost.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Functions/DataWriter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/DataWriter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions/ProperNames.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions/ProperNamesFullText.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/ProperNamesFullText.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions/Sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/Sentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrapers/WebScraperNewsweek.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapers/WebScraperNewsweek.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrapers/WebScraperOnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapers/WebScraperOnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultNaive.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultNaive.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultProperNames.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultProperNames.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,108 +81,101 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataFull/Fronda.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="42" selection-start-column="42" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functions/Sentiment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resultNaive.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functions/DataWriter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="612">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Functions/ProperNames.py">
+        <entry file="file://$PROJECT_DIR$/Functions/hyphenAnalyzer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+              <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions/SentimentSummaryAnalyzer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="38" selection-end-column="32" />
               <folding>
-                <element signature="e#197#249#0" expanded="true" />
+                <element signature="e#23#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataReal/Fronda.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="1513">
-              <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataReal/Interia.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="128">
-              <caret line="575" selection-start-line="575" selection-end-line="575" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataReal/Gazeta.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="159">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperRMFSwiat.py">
+        <entry file="file://$PROJECT_DIR$/Functions/ProperNamesSentimentReader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="102">
+              <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#23#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperWPolityce.py">
+        <entry file="file://$PROJECT_DIR$/Functions/ProperNamesSentiment.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResultProperNamesSentiment.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resultProperNames.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="101">
+              <caret line="336" column="9" lean-forward="true" selection-start-line="336" selection-start-column="9" selection-end-line="336" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/properNamesCategorized.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="294" column="20" lean-forward="true" selection-start-line="294" selection-start-column="20" selection-end-line="294" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions/ProperNamesParsing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#24#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions/RandomStringDigits.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,34 +192,44 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>gers</find>
-      <find>zagraża</find>
-      <find>marsz w war</find>
-      <find>wegan</find>
-      <find>lclzf3-0 egPcYF</find>
-      <find>gra o</find>
-      <find>schizo</find>
-      <find>h2</find>
-      <find>decorate</find>
-      <find>get</find>
-      <find>bs(page)</find>
-      <find>duda</find>
-      <find>Odkry</find>
-      <find>polac</find>
-      <find>u200</find>
-      <find>Nob</find>
-      <find>zato</find>
-      <find>eurowi</find>
-      <find>Mile</find>
-      <find>spr</find>
-      <find>dir</find>
-      <find>\</find>
-      <find>prin</find>
-      <find>value</find>
+      <find>emo</find>
+      <find>pd</find>
+      <find>driver</find>
+      <find>h3</find>
+      <find>/polityka/448971-suski-przyjda-ci-ktorzy-sa-kompetentni-i-znaja-program-pis</find>
+      <find>nasz</find>
+      <find>Social Changes</find>
+      <find>183</find>
+      <find>komisja</find>
+      <find>Neumann</find>
+      <find>Gazeta</find>
+      <find>stało si</find>
+      <find>mazguł</find>
+      <find>mazgu</find>
+      <find>B</find>
+      <find>V</find>
+      <find>ORMO</find>
+      <find>life a</find>
+      <find>Unicode</find>
+      <find>Rzecz dotyczy</find>
+      <find>twitt</find>
+      <find>twi</find>
+      <find>twit</find>
+      <find>https</find>
+      <find>twitter</find>
+      <find>publ</find>
+      <find>words</find>
+      <find>print</find>
+      <find>koalicja e</find>
+      <find>rząd</find>
     </findStrings>
     <replaceStrings>
       <replace>bs(page, features=&quot;html.parser&quot;)</replace>
       <replace>'</replace>
+      <replace>g</replace>
+      <replace>b</replace>
+      <replace>c</replace>
+      <replace>v</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -199,28 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Scrapers/WebScraperFronda.py" />
-        <option value="$PROJECT_DIR$/DataTest/testDziennik.csv" />
-        <option value="$PROJECT_DIR$/DataTest/testFronda.csv" />
-        <option value="$PROJECT_DIR$/DataTest/testGazeta.csv" />
-        <option value="$PROJECT_DIR$/DataTest/testInteria.csv" />
-        <option value="$PROJECT_DIR$/DataTest/testNCzas.csv" />
-        <option value="$PROJECT_DIR$/DataTest/testNewsweek.csv" />
-        <option value="$PROJECT_DIR$/DataTest/testOnet.csv" />
-        <option value="$PROJECT_DIR$/DataTest/testPolityka.csv" />
-        <option value="$PROJECT_DIR$/DataTest/testRMFPolska.csv" />
-        <option value="$PROJECT_DIR$/DataTest/testRMFSwiat.csv" />
-        <option value="$PROJECT_DIR$/DataTest/testTVN24.csv" />
-        <option value="$PROJECT_DIR$/DataTest/testWP.csv" />
-        <option value="$PROJECT_DIR$/DataTest/testWPolityce.csv" />
-        <option value="$PROJECT_DIR$/DataTest/testWprost.csv" />
-        <option value="$PROJECT_DIR$/DataReal/Interia.csv" />
-        <option value="$PROJECT_DIR$/DataReal/NCzas.csv" />
-        <option value="$PROJECT_DIR$/DataReal/Newsweek.csv" />
-        <option value="$PROJECT_DIR$/DataReal/Onet.csv" />
-        <option value="$PROJECT_DIR$/DataReal/Polityka.csv" />
-        <option value="$PROJECT_DIR$/DataReal/RMFPolska.csv" />
-        <option value="$PROJECT_DIR$/DataReal/TVN24.csv" />
         <option value="$PROJECT_DIR$/DataReal/TVPInfo.csv" />
         <option value="$PROJECT_DIR$/DataReal/WP.csv" />
         <option value="$PROJECT_DIR$/DataReal/WPolityce.csv" />
@@ -242,20 +259,41 @@
         <option value="$PROJECT_DIR$/Functions/testNLP2.py" />
         <option value="$PROJECT_DIR$/info.json" />
         <option value="$PROJECT_DIR$/Functions/slowNLPtest.py" />
-        <option value="$PROJECT_DIR$/DataFull/Fronda.txt" />
         <option value="$PROJECT_DIR$/Functions/DataLoader.py" />
-        <option value="$PROJECT_DIR$/Functions/Sentiment.py" />
-        <option value="$PROJECT_DIR$/resultNaive.json" />
-        <option value="$PROJECT_DIR$/Functions/DataWriter.py" />
-        <option value="$PROJECT_DIR$/DataReal/Fronda.csv" />
         <option value="$PROJECT_DIR$/DataReal/Gazeta.csv" />
         <option value="$PROJECT_DIR$/Functions/ProperNames.py" />
+        <option value="$PROJECT_DIR$/DataFull/Fronda.txt" />
+        <option value="$PROJECT_DIR$/resultProperNames.json" />
+        <option value="$PROJECT_DIR$/Functions/ProperNamesFullText.py" />
+        <option value="$PROJECT_DIR$/Scrapers/WebScraperNCzas.py" />
+        <option value="$PROJECT_DIR$/Scrapers/WebScraperOnet.py" />
+        <option value="$PROJECT_DIR$/Scrapers/WebScraperNewsweek.py" />
+        <option value="$PROJECT_DIR$/DataReal/Fronda.csv" />
+        <option value="$PROJECT_DIR$/DataReal/Onet.csv" />
+        <option value="$PROJECT_DIR$/DataReal/Polityka.csv" />
+        <option value="$PROJECT_DIR$/Functions/ProperNamesParsing.py" />
+        <option value="$PROJECT_DIR$/Scrapers/WebScraperPolitykaWebsites.py" />
+        <option value="$PROJECT_DIR$/Scrapers/WebScraperNCzasWebsites.py" />
+        <option value="$PROJECT_DIR$/Scrapers/WebScraperNewsweekWebsites.py" />
+        <option value="$PROJECT_DIR$/Scrapers/WebScraperOnetWebsites.py" />
+        <option value="$PROJECT_DIR$/Functions/FullTextDataWriter.py" />
+        <option value="$PROJECT_DIR$/Scrapers/WebScraperWPolityceWebsites.py" />
+        <option value="$PROJECT_DIR$/ArticleText/NCzasText.txt" />
+        <option value="$PROJECT_DIR$/Functions/CountItems.py" />
+        <option value="$PROJECT_DIR$/Functions/DataWriter.py" />
+        <option value="$PROJECT_DIR$/resultNaive.json" />
+        <option value="$PROJECT_DIR$/Functions/Sentiment.py" />
+        <option value="$PROJECT_DIR$/Functions/SentimentSummaryAnalyzer.py" />
+        <option value="$PROJECT_DIR$/ResultProperNamesSentiment.csv" />
+        <option value="$PROJECT_DIR$/Functions/ProperNamesSentiment.py" />
+        <option value="$PROJECT_DIR$/properNamesCategorized.json" />
+        <option value="$PROJECT_DIR$/Functions/ProperNamesSentimentReader.py" />
+        <option value="$PROJECT_DIR$/Functions/hyphenAnalyzer.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="167" />
-    <option name="y" value="-13" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="77" />
     <option name="width" value="1384" />
     <option name="height" value="736" />
   </component>
@@ -276,7 +314,22 @@
             <path>
               <item name="TestDataGenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestDataGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="ArticleText" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDataGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDataGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="DataFull" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDataGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDataGenerator" type="462c0819:PsiDirectoryNode" />
               <item name="DataReal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDataGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDataGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="DataTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestDataGenerator" type="b2602c69:ProjectViewProjectNode" />
@@ -297,17 +350,18 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Functions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Scrapers" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\temp" />
       <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\RealData" />
       <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\Scrapers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\Functions" />
       <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\Scrapers" />
+      <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\Functions" />
       <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\DataReal" />
       <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator\DataTest" />
       <recent name="C:\Users\Ilona\PycharmProjects\TestDataGenerator" />
@@ -325,8 +379,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ProperNames">
-    <configuration name="DataLoader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.hyphenAnalyzer">
+    <configuration name="CountItems" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TestDataGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -338,7 +392,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/DataLoader.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/CountItems.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -347,7 +401,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DataWriter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ProperNamesSentimentReader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TestDataGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -359,28 +413,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/DataWriter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ProperNames" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TestDataGenerator" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/ProperNames.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/ProperNamesSentimentReader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -410,7 +443,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="slowNLPtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SentimentSummaryAnalyzer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TestDataGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -422,7 +455,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Ilona\PycharmProjects\TestDataGenerator\Functions\Sentiment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/SentimentSummaryAnalyzer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hyphenAnalyzer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TestDataGenerator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/hyphenAnalyzer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -433,11 +487,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ProperNames" />
-        <item itemvalue="Python.DataWriter" />
+        <item itemvalue="Python.hyphenAnalyzer" />
+        <item itemvalue="Python.ProperNamesSentimentReader" />
+        <item itemvalue="Python.CountItems" />
+        <item itemvalue="Python.SentimentSummaryAnalyzer" />
         <item itemvalue="Python.Sentiment" />
-        <item itemvalue="Python.DataLoader" />
-        <item itemvalue="Python.slowNLPtest" />
       </list>
     </recent_temporary>
   </component>
@@ -467,26 +521,26 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2470238" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2671131" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5139116" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41571194" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.4091653" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2470238" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25297618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -495,366 +549,17 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.4091653" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DataReal/Wprost.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="6103">
-          <caret line="359" column="11" selection-start-line="359" selection-start-column="7" selection-end-line="359" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/RandomStringDigits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataTest/testGazeta.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataTest/testWP.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-3760">
-          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataTest/testPolityka.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataTest/testTVPInfo.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataTest/testRMFPolska.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataTest/testOnet.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataReal/TVPInfo.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="6511">
-          <caret line="383" selection-start-line="383" selection-end-line="383" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataReal/WPolityce.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataReal/WP.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="153">
-          <caret line="2142" selection-start-line="2142" selection-end-line="2142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataTest/testWprost.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="2975">
-          <caret line="175" selection-start-line="175" selection-end-line="175" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataReal/Dziennik.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="9010">
-          <caret line="530" selection-start-line="530" selection-end-line="530" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataTest/testDziennik.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="97" selection-start-line="58" selection-start-column="97" selection-end-line="58" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataTest/testRMFSwiat.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataReal/RMFSwiat.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="1530">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapers/scraper.py" />
-    <entry file="file://$PROJECT_DIR$/Scrapers/scraperjson.py" />
-    <entry file="file://$PROJECT_DIR$/Scrapers/scraperxml.py" />
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperDziennik.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#1#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperFronda.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperGazeta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperInteria.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperNCzas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperNewsweek.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperOnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Handlers/DziennikHandler.py" />
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperPolityka.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperWprost.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperRMFPolska.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Tools/scripts/2to3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#22#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/testNLP.py" />
-    <entry file="file://$PROJECT_DIR$/info.json" />
-    <entry file="file://$PROJECT_DIR$/Functions/testNLP2.py" />
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperTVN24.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperTVPInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperWP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataFull/Dziennik.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1809" lean-forward="true" selection-start-column="1809" selection-end-column="1809" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataFull/Gazeta.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/DataLoader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataFull/Newsweek.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1269" selection-start-column="1269" selection-end-column="1269" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataFull/Fronda.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Sentiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultNaive.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperWPolityce.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -866,18 +571,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataReal/Interia.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="128">
           <caret line="575" selection-start-line="575" selection-end-line="575" />
         </state>
       </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/ProperNames.py" />
+    <entry file="file://$PROJECT_DIR$/DataReal/Gazeta.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="2346">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperRMFSwiat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="306">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
@@ -885,40 +601,364 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataReal/Gazeta.csv">
+    <entry file="file://$PROJECT_DIR$/DataTest/testGazeta.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="159">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataTest/testFronda.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="76" column="62" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataReal/Fronda.csv">
+    <entry file="file://$PROJECT_DIR$/temp/Fronda.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="471" selection-start-column="471" selection-end-column="471" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/Gazeta.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6879" selection-start-column="6879" selection-end-column="6879" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/Interia.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7259" selection-start-column="7259" selection-end-column="7259" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/ProperNamesFullText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+          <folding>
+            <element signature="e#186#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperOnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperNewsweek.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperNCzas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataFull/Fronda.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataReal/WP.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="101235">
+          <caret line="5955" column="80" selection-start-line="5955" selection-start-column="80" selection-end-line="5955" selection-end-column="80" />
+        </state>
+      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataReal/WPolityce.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="1513">
-          <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
+        <state relative-caret-position="2023">
+          <caret line="119" column="37" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataFull/Wprost.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataFull/TVPInfo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" lean-forward="true" selection-end-column="48980" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataFull/WPolityce.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="97487" selection-start-column="97487" selection-end-column="97487" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataFull/WP.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret column="817" selection-end-column="233181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataTest/testWP.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="75" lean-forward="true" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataTest/testWPolityce.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="102">
+          <caret line="131" selection-start-line="130" selection-start-column="6" selection-end-line="131" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataReal/Onet.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="193">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataTest/testPolityka.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="193">
+          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataReal/Polityka.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="17">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataReal/Fronda.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="136">
+          <caret line="747" lean-forward="true" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/DataLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperNCzasWebsites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperPolitykaWebsites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperNewsweekWebsites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperWPolityceWebsites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapers/WebScraperOnetWebsites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArticleText/NCzasText.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10636" lean-forward="true" selection-start-line="1" selection-start-column="10636" selection-end-line="1" selection-end-column="10636" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArticleText/OnetText.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArticleText/PolitykaText.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/FullTextDataWriter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#23#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Sentiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultNaive.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions/DataWriter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="833">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/ProperNames.py">
+    <entry file="file://$PROJECT_DIR$/ArticleText/testfile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/CountItems.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/SentimentSummaryAnalyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <element signature="e#23#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/ProperNamesParsing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#24#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/RandomStringDigits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultProperNames.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="336" column="9" lean-forward="true" selection-start-line="336" selection-start-column="9" selection-end-line="336" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/ProperNamesSentiment.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResultProperNamesSentiment.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/ProperNamesSentimentReader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+          <folding>
+            <element signature="e#23#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/properNamesCategorized.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="294" column="20" lean-forward="true" selection-start-line="294" selection-start-column="20" selection-end-line="294" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/hyphenAnalyzer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
-          <folding>
-            <element signature="e#197#249#0" expanded="true" />
-          </folding>
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
         </state>
       </provider>
     </entry>

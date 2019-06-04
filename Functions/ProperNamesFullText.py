@@ -1,37 +1,33 @@
 #-*- coding: utf-8 -*-
-# get all files containing real data
-# parse into pandas DataFrames
-# For each sentence create line in dict: Origin, sentence, dict with number of words of certain emotions
+
+# Program to retrieve and parse proper names from headlines
 
 import urllib.parse, json, urllib.request, time, csv
-import pandas as pd
 import xml.etree.ElementTree as et
-from Functions.RandomStringDigits import randomStringDigits
 
-# declare titles
-#Dziennik, Fronda
 titles=['Fronda','Gazeta','Interia','NCzas','Newsweek','Onet','Polityka','RMFPolska','RMFSwiat','TVN24','TVPInfo','WP','WPolityce','Wprost']
 
 def properNames(): #source as path to csv file
-    # initialize dictionary for CLARIN analysis:
+
+    # Initialize dictionary for CLARIN analysis:
     data = dict()
-    summary=dict()
     l = 'any2txt|wcrft2|liner2({"model":"top9"})'
     u = 'IKedracka'
+
+    # Limit categories to locations, names and organizations:
+    t=['nam_loc','nam_liv','nam_org']
     proper_names = []
 
-    #get text to parse:
+    # Get text to parse:
     for title in titles:
         words=list()
-        emotions=dict()
         path = "C:\\Users\\Ilona\\PycharmProjects\\TestDataGenerator\\DataFull\\" + title + ".txt"
         source=open(path,"r")
-        # words=pd.read_csv(source, header=0)
-        # content=words['Headline']
+
+        # Split into bag of words:
         words = source.read().split(',')
         text = ' '.join(words)
         text = text.replace("'", "")
-        print(text)
         data['text']=text
         data['lpmn']=l
         data['user']=u
@@ -41,33 +37,33 @@ def properNames(): #source as path to csv file
         url=u.geturl()
         base='http://ws.clarin-pl.eu/nlprest2/base'
         tid = urllib.request.urlopen(urllib.request.Request(url,data=doc, headers={'Content-Type': 'application/json'})).read().decode('utf8')
-        # print(tid)
+
+        # Request delay to avoid incorrect response:
         time.sleep(15)
         resp = json.loads(urllib.request.urlopen(urllib.request.Request(base + '/getStatus/' + tid)).read())
-        print(type(resp))
-        # while type(resp)==float:
-        #     print('Response incorrect')
-        #     time.sleep(20)
-        #     resp = json.loads(urllib.request.urlopen(urllib.request.Request(base + '/getStatus/' + tid)).read())
         value=resp['value']
-        # print(value)
-    #
+
+        # Request response:
         for item in value:
             content = urllib.request.urlopen(urllib.request.Request(base + '/download' + item['fileID'])).read().decode('utf8')
             # print(content)
             root=et.fromstring(content)
-    #             # print(root)
+            # print(root)
+
+            # Find all elements which contain
             for tok in root.findall('.//tok'):
                 if (tok.findtext('ann') is not None):
-                    if int(tok.findtext('ann'))>0:
-                        for lex in tok.findall('lex'):
-                            baseName=lex.findtext('base')
-                            if baseName not in proper_names:
-                                proper_names.append(baseName)
+                    tags=tok.findall('ann')
+                    for tag in tags:
+                        if (tag.attrib['chan'] in t and tag.text != '0'):
+                            lex=tok.find('lex')
+                            base=lex.findtext('base')
+                            if base not in proper_names:
+                                proper_names.append(base)
     return proper_names
 
 names=properNames()
+
+# Save results to the file:
 with open("C:\\Users\\Ilona\\PycharmProjects\\TestDataGenerator\\resultProperNames.json","w") as result:
     json.dump(names, result, ensure_ascii=False)
-
-print(names)

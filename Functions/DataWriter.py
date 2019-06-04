@@ -1,7 +1,4 @@
-# move it to remote and run in the background
-# add handling for timeout error for particular websites
 import csv, sched, time, threading
-from Scrapers.WebScraperDziennik import dziennik
 from Scrapers.WebScraperFronda import fronda
 from Scrapers.WebScraperGazeta import gazeta
 from Scrapers.WebScraperInteria import interia
@@ -18,12 +15,8 @@ from Scrapers.WebScraperWPolityce import wpolityce
 from Scrapers.WebScraperWprost import wprost
 import datetime
 
-titles=['Dziennik','Fronda','Gazeta','Interia','NCzas','Newsweek','Onet','Polityka','RMFPolska','RMFSwiat','TVN24','TVPInfo','WP','WPolityce','Wprost']
-functions=[dziennik(),fronda(),gazeta(), interia(), nczas(),onet(), newsweek(),polityka(),rmfpolska(),rmfswiat(),tvn24(),tvpinfo(),wp(),wpolityce(),wprost()]
-
-#Gazeta, gazeta()
-
-s=sched.scheduler(time.time, time.sleep)
+titles=['Fronda','Gazeta','Interia','NCzas','Newsweek','Onet','Polityka','RMFPolska','RMFSwiat','TVN24','TVPInfo','WP','WPolityce','Wprost']
+functions=[fronda(),gazeta(), interia(), nczas(),onet(), newsweek(),polityka(),rmfpolska(),rmfswiat(),tvn24(),tvpinfo(),wp(),wpolityce(),wprost()]
 
 def update():
     for i in range(0,len(titles)):
@@ -31,43 +24,48 @@ def update():
         testString="C:\\Users\\Ilona\\PycharmProjects\\TestDataGenerator\\DataTest\\test"+titles[i]+".csv"
         realString="C:\\Users\\Ilona\\PycharmProjects\\TestDataGenerator\\DataReal\\"+titles[i]+".csv"
 
-        # Initialize empty lists to store headlines
+        # Initialize empty lists to store headlines:
         lastUpdate=[]
         newUpdate=[]
 
-        # Read old data
+        # Read old data:
         testDataReader=csv.DictReader(open(testString))
         for line in testDataReader:
             lastUpdate.append(str(line['Headline']).strip(u'\u200b'))
-        # print("Last Update:")
-        # print(lastUpdate)
+
+        # Read new data:
         newData=functions[i]
 
-        # If new headlines not in old headlines, append new headlines to the file
+        # If new headlines not in old headlines, append new headlines to the file:
         for key, val in newData.items():
             if val not in lastUpdate:
-                newUpdate.append(val.replace(u'\u200b','').replace(u'\u0219','s'))
+                newUpdate.append(val.replace(u'\u200b','').replace(u'\u2103',' ').replace(u'\u0219','s')) #replacing problematic signs
+
+        # Print recent update:
         print("Update - " + str(titles[i]))
         print(newUpdate)
+
+        # Open file to save with 'append' mode:
         realDataWriter = csv.writer(open(realString, mode="a"))
+
+        # Declare timestamp to append to each line with new headline:
         timestamp=datetime.datetime.now()
+
+        # Save new lines to the file:
         for line in newUpdate:
-            line=line.replace(u'\u200b','').replace(u'\u0219','s')
+            line=line.replace(u'\u200b','').replace(u'\u0219','s').replace(u'\u2103',' ')
             realDataWriter.writerow([titles[i],line,timestamp])
 
+        # Save new lines in order to compare with further updates
         testDataWriter=csv.writer(open(testString, mode="w"))
         testDataWriter.writerow(['Title','Headline','Timestamp'])
         for key, val in newData.items():
-            value=val.replace(u'\u200b','').replace(u'\u0219','s')
+            value=val.replace(u'\u200b','').replace(u'\u0219','s').replace(u'\u2103',' ')
             testDataWriter.writerow([titles[i],value,timestamp])
-        frun=datetime.datetime.now()
+
+    # Print timestamp of function runned:
+    frun=datetime.datetime.now()
     print("Function runned: ")
     print(frun)
 
-def run():
-    threading.Timer(600,run).start()
-    update()
-
-# run()
-#
 update()

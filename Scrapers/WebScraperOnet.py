@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup as bs
 
 from Functions.RandomStringDigits import randomStringDigits
 
-
 def onet():
     oHeadlines=dict()
     onet="https://wiadomosci.onet.pl/"

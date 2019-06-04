@@ -13,9 +13,9 @@ def newsweek():
 
     headlines=soup.find_all("h2", class_="artTitle")
     for headline in headlines:
+        # print(headline)
         if headline.string is not None:
             key = randomStringDigits(8)
             value = str(headline.string)
             nHeadlines[key] = value
     return nHeadlines
-
